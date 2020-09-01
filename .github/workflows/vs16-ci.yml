@@ -27,5 +27,5 @@ jobs:
       working-directory: "${{ github.workspace }}/../../_temp/windows"
   
     - name: 'Run CTest C++'
-      run: src\Release\testpp.exe
+      run: src\Release\testcpp.exe
       working-directory: "${{ github.workspace }}/../../_temp/windows"
