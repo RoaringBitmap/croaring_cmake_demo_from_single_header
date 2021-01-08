@@ -13,7 +13,7 @@ jobs:
     runs-on: windows-2016
 
     env:
-      CMAKE_GENERATOR: Ninja # This is critical, try ' cmake  -GNinja-DSIMDJSON_BUILD_STATIC=ON .. ' if using the command line
+      CMAKE_GENERATOR: Ninja # This is critical
       CC: gcc
       CXX: g++
 
